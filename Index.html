@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function sum()
+        {
+            var input=document.getElementById("input").value;
+            document.getElementById("output").value=eval(input);
+        }
+
+    </script>
+</head>
+<body>
+ <div class="container"> 
+ 
+<center>
+    <i style="font-size: 120px;" class="fa fa-calculator" aria-hidden="true"></i><br><br>
+        <input style="font-size: 40px;" type="text" placeholder="input" id="input" name=""><br><br>
+        <input style="font-size: 40px;"  type="text"placeholder="output" id="output" name="" readonly=""><br><br>
+        <input style="font-size: 40px;"  type="submit" onclick="sum()" class="btn btn-primary" id="sum" value="Equal">
+    </center>
+</div>
+    <script src=js/bootsrrip.min.js></script>
+    <script src="jqurey-3.5.1.slim.min.map "></script>
+</body>
+</html>
